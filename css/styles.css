@@ -5,36 +5,46 @@ body {
 
 h1 {
 	color:white;
-	background-color: #440066;
+	background-color:hsla(240, 100%, 50%, 1);
 	padding:.75em;
 }
 
 .summary {
 	margin:2em;
-	border: 1px solid #dddddd;
-	border-radius: 3px;
+	background-color:white;
+  	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+	padding:1em;
 }
 
 .title {
-	background-color:#440066;
-	color:white;
+	color:hsla(240, 100%, 50%, 1);
 	font-size: larger;
 	font-weight: bold;
 	text-decoration: none;
-	padding:.5em;
+	padding-bottom: .5em;
 	margin:0;
 }
 
 .title:hover {
-	background-color: #660088;
+	color:hsla(240, 100%, 75%, 1);
 }
 
 .description {
-	margin:1em;
 	text-decoration: none;
 	color:black;
 }
 
 a.noDecoration {
 	text-decoration: none;
+}
+
+body {
+	background-color:hsla(240, 100%, 98%, 1);
+	background-image:repeating-linear-gradient(
+		45deg, 
+		hsla(240,100%, 98%, 1), 
+		hsla(240,100%, 98%, 1) 1%,
+		hsla(240,100%, 99%, 1) 1%, 
+		hsla(240,100%, 99%, 1) 2%, 
+		hsla(240, 100%, 98%, 1) 2%);
 }
