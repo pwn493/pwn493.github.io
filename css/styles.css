@@ -43,8 +43,7 @@ body {
 	background-image:repeating-linear-gradient(
 		45deg, 
 		hsla(240,100%, 98%, 1), 
-		hsla(240,100%, 98%, 1) 1%,
-		hsla(240,100%, 99%, 1) 1%, 
-		hsla(240,100%, 99%, 1) 2%, 
-		hsla(240, 100%, 98%, 1) 2%);
+		hsla(240,100%, 98%, 1) 10px,
+		hsla(240,100%, 99%, 1) 10px, 
+		hsla(240,100%, 99%, 1) 20px);
 }
